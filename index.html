@@ -3,191 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Osorno Computadores | Servicio Técnico Especializado</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Aquí cargaremos Google Fonts después -->
+    <title>Osorno Computadores | Servicio Técnico</title>
 </head>
 <body>
-    <!-- Skip Link (Punto Extra de Accesibilidad - Nivel Excelente) -->
-    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
 
-    <!-- 1. HEADER (Con logo, título y botón de registro) -->
+    <!-- ========== HEADER (ÚNICO REQUISITO POR AHORA) ========== -->
     <header>
-        <!-- Logo: Puede ser texto o imagen -->
-        <div class="logo">🖥️ Osorno Computadores</div>
-        <!-- Título principal (solo un H1 por página) -->
-        <h1>Servicio Técnico Profesional</h1>
-        <!-- Botón de registro -->
-        <a href="#contacto" class="btn-header">Solicitar Diagnóstico</a>
-    </header>
-
-    <!-- 2. NAV (Opcional pero recomendado para navegación interna) -->
-    <nav>
-        <a href="#servicios">Servicios</a>
-        <a href="#profesionales">Equipo</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-
-    <!-- 3. MAIN (USAR UNA SOLA VEZ - OBLIGATORIO) -->
-    <main id="main-content">
+        <!-- 1. LOGO -->
+        <!-- Opción A: Logo con texto -->
+        <span>🖥️ Osorno Computadores</span>
         
-        <!-- 4. SECCIÓN DE PRESENTACIÓN (Hero) -->
-        <section class="hero">
-            <!-- Imagen principal (usa 'PRINCIPAL.jpg') -->
-            <img src="imagenes/tecnico-principal.jpg" alt="Técnico reparando un computador de escritorio">
-            <h2>Reparación y Armado de Computadores en Osorno</h2>
-            <p>Más de 10 años de experiencia solucionando problemas técnicos. Diagnóstico gratuito.</p>
-            <a href="#contacto" class="btn">Contáctanos</a>
-        </section>
+        <!-- Opción B: Logo con imagen (si tienes una) -->
+        <!-- <img src="imagenes/logo.png" alt="Logo Osorno Computadores"> -->
 
-        <!-- 5. SECCIÓN DE SERVICIOS (6 Artículos Mínimo) -->
-        <section id="servicios" class="servicios">
-            <h2>Nuestros Servicios</h2>
-            <!-- Contenedor Flex/Grid para las tarjetas -->
-            <div class="servicios-grid">
-                
-                <!-- Artículo 1 -->
-                <article class="servicio-card">
-                    <img src="imagenes/analisis.png" alt="Lupa sobre placa madre">
-                    <h3>Análisis y Diagnóstico</h3>
-                    <p>Detectamos la falla exacta de tu equipo en menos de 24 horas.</p>
-                </article>
+        <!-- 2. TÍTULO -->
+        <h1>Servicio Técnico Profesional</h1>
 
-                <!-- Artículo 2 -->
-                <article class="servicio-card">
-                    <img src="imagenes/armado-pc.png" alt="Destornillador armando PC">
-                    <h3>Armado de PC Gamer</h3>
-                    <p>Cotizamos y armamos tu computador a medida según tu presupuesto.</p>
-                </article>
-
-                <!-- Artículo 3 -->
-                <article class="servicio-card">
-                    <img src="imagenes/armado-torres.png" alt="Torre de computador abierta">
-                    <h3>Armado de Torres</h3>
-                    <p>Instalación de componentes y gestión de cableado profesional.</p>
-                </article>
-
-                <!-- Artículo 4 -->
-                <article class="servicio-card">
-                    <img src="imagenes/cambio-pantalla.png" alt="Pantalla de notebook rota">
-                    <h3>Cambio de Pantalla</h3>
-                    <p>Reemplazo de displays LED/LCD para notebooks y monitores.</p>
-                </article>
-
-                <!-- Artículo 5 -->
-                <article class="servicio-card">
-                    <img src="imagenes/formateo.png" alt="Pantalla de instalación Windows">
-                    <h3>Formateo y Optimización</h3>
-                    <p>Instalación limpia de Windows, drivers y software esencial.</p>
-                </article>
-
-                <!-- Artículo 6 -->
-                <article class="servicio-card">
-                    <img src="imagenes/instalacion-sw.png" alt="Caja de software">
-                    <h3>Instalación de Software</h3>
-                    <p>Office, Antivirus, Programas de diseño y más.</p>
-                </article>
-
-                <!-- Artículo 7 (Extra) -->
-                <article class="servicio-card">
-                    <img src="imagenes/recuperacion-datos.png" alt="Disco duro con lupa">
-                    <h3>Recuperación de Datos</h3>
-                    <p>Rescatamos tu información de discos duros dañados.</p>
-                </article>
-
-                <!-- Artículo 8 (Extra) -->
-                <article class="servicio-card">
-                    <img src="imagenes/soporte-remoto.png" alt="Pantalla con control remoto">
-                    <h3>Soporte Remoto</h3>
-                    <p>Solucionamos problemas de software sin que salgas de casa.</p>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- 6. SECCIÓN DE PROFESIONALES (Cuadrícula con imagen, descripción, botón) -->
-        <section id="profesionales" class="profesionales">
-            <h2>Nuestro Equipo Técnico</h2>
-            <div class="profesionales-grid">
-                
-                <!-- Profesional 1 -->
-                <article class="profesional-card">
-                    <img src="imagenes/tecnico1.jpg" alt="Carlos Muñoz - Técnico Senior">
-                    <h3>Carlos Muñoz</h3>
-                    <p>Especialista en Hardware y Overclocking. 8 años de experiencia.</p>
-                    <a href="#" class="btn-small">Ver Perfil</a>
-                </article>
-
-                <!-- Profesional 2 -->
-                <article class="profesional-card">
-                    <img src="imagenes/tecnico2.jpg" alt="Ana Vargas - Soporte Software">
-                    <h3>Ana Vargas</h3>
-                    <p>Ingeniera en Informática. Experta en recuperación de datos y redes.</p>
-                    <a href="#" class="btn-small">Ver Perfil</a>
-                </article>
-
-                <!-- Profesional 3 -->
-                <article class="profesional-card">
-                    <img src="imagenes/tecnico3.jpg" alt="Pedro Soto - Armado PC">
-                    <h3>Pedro Soto</h3>
-                    <p>Técnico en armado de PC Gamer y refrigeración líquida.</p>
-                    <a href="#" class="btn-small">Ver Perfil</a>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- 7. SECCIÓN DE CONTACTO (Formulario) -->
-        <section id="contacto" class="contacto">
-            <h2>Solicita tu Diagnóstico Gratuito</h2>
-            
-            <form action="#" method="POST" class="formulario-contacto">
-                
-                <div class="form-group">
-                    <label for="nombre">Nombre Completo *</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Correo Electrónico *</label>
-                    <!-- SELECTOR DE ATRIBUTO: input[type="email"] en CSS -->
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="telefono">Teléfono de Contacto</label>
-                    <input type="tel" id="telefono" name="telefono">
-                </div>
-
-                <div class="form-group">
-                    <label for="servicio">Servicio Requerido</label>
-                    <select id="servicio" name="servicio">
-                        <option value="diagnostico">Diagnóstico</option>
-                        <option value="armado">Armado de PC</option>
-                        <option value="reparacion">Reparación</option>
-                        <option value="otro">Otro</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="mensaje">Describe tu problema *</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-                </div>
-
-                <!-- SELECTOR DE ATRIBUTO para el botón: input[type="submit"] -->
-                <input type="submit" value="Enviar Solicitud" class="btn-submit">
-                
-            </form>
-        </section>
-
-    </main>
-
-    <!-- 8. FOOTER -->
-    <footer>
-        <p>&copy; 2026 Osorno Computadores - Todos los derechos reservados</p>
-        <p>Desarrollado por: [TU NOMBRE COMPLETO] - INACAP Osorno</p>
-        <p>Programación Front End - Evaluación Sumativa 1</p>
-    </footer>
+        <!-- 3. BOTÓN DE REGISTRO -->
+        <a href="#contacto">Solicitar Diagnóstico</a>
+    </header>
+    <!-- ========== FIN DEL HEADER ========== -->
 
 </body>
 </html>
