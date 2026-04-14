@@ -527,3 +527,7 @@ body {
         font-size: 0.9rem;
     }
 }
+footer {
+    background-color: #0a0a1a;
+    color: #b8c7e7;
+}
